@@ -4,8 +4,8 @@ import { Separator } from "@/components/ui/separator";
 
 const Index = () => {
   return (
-    <div className="h-screen w-screen flex flex-col items-center justify-center bg-white">
-      <Card className="w-3/4 bg-white shadow-lg">
+    <div className="min-h-screen w-screen flex flex-col items-center justify-center bg-white p-4">
+      <Card className="w-full max-w-3xl bg-white shadow-lg">
         <CardHeader>
           <CardTitle className="text-4xl text-center text-black">
             Welcome to Riley ABA's Online Library
@@ -13,7 +13,7 @@ const Index = () => {
         </CardHeader>
         <CardContent className="text-lg text-black p-6">
           <p>
-            Welcome to Riley ABA's online library for Programs and Materials! We are delighted to have you here. At Riley ABA, we are dedicated to providing high-quality resources and support for Applied Behavior Analysis (ABA) professionals, students, and their families. Our online library is a comprehensive repository designed to assist you in accessing a wide range of programs, materials, and tools to enhance your treatment plans.
+            Welcome to Riley ABA's online library for Programs and Materials! We are thrilled to have you here. At Riley ABA, we are committed to providing top-notch resources and support for Applied Behavior Analysis (ABA) professionals, students, and their families. Our online library is a comprehensive repository designed to help you access a wide range of programs, materials, and tools to enhance your treatment plans.
           </p>
           <Separator className="my-4" />
           <p>
@@ -25,8 +25,8 @@ const Index = () => {
           </p>
         </CardContent>
       </Card>
-      <div className="mt-8">
-        <img src="/images/riley-aba-building.png" alt="Riley ABA Building" className="rounded-lg shadow-lg" />
+      <div className="mt-8 w-full max-w-3xl">
+        <img src="/images/riley-aba-building.png" alt="Riley ABA Building" className="w-full rounded-lg shadow-lg" />
       </div>
     </div>
   );
